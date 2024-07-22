@@ -26,7 +26,7 @@ function App() {
     };
 
     setLoading(true);
-    fetch("https://jsonplaceholder.typicode.com/posts1", {
+    fetch("https://jsonplaceholder.typicode.com/posts", {
       method: "POST",
       body: JSON.stringify({
         ...values,
